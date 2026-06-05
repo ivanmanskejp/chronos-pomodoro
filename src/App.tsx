@@ -5,17 +5,25 @@
 //ExemploDeComponente
 import './Styles/theme.css';
 import './Styles/global.css';
+import { Container } from './components/Container';
 import { Heading } from './components/Heading';
 
-export function App() {
-    console.log("Oi");
-    return (  
-         <> 
-    
-<Heading/>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, temporibus dolor praesentium, molestias quis at culpa necessitatibus iusto ut eaque fugit obcaecati maiores. Vitae harum aperiam, porro nisi voluptas illo.</p>
 
-    </>)
+export function App() {
+    return  <> 
+  
+  <Container>
+    <Heading> LOGO </Heading>
+  </Container>
+
+   <Container>
+    <Heading> MENU </Heading>
+  </Container>
+
+
+    
+
+    </>;
     
 }
 
